@@ -14,16 +14,27 @@ planets = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune]
 # Write code that will answer the following questions:
 # ----------------------------------------------------
 
-# How many planets are there?
-
 
 # How many moons revolve around Jupiter?
+# print(jupiter['moons'])
+
 
 
 # How many moons are there in our solar system?
+# sum = 0
+# for planet in planets:
+#   sum += planet['moons']
+# print(sum)
 
 
 # Display all of the planet names
+# for planet in planets:
+#   print(planet['name'])
 
 
 # Display all of the planet names in alphabetical order
+planetNames = []
+for planet in planets:
+  planetNames.append(planet['name'])
+planetNames.sort()
+print(planetNames)

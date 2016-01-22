@@ -4,7 +4,7 @@ def use_secret_encoder(plain_text):
     new_letter =  chr(ord(letter) + 3)
     encoded_message += new_letter
 
-  return encoded_message
+  return encoded_message.lower()
 
 def use_secret_decoder(cipher_text):
-  return cipher_text
+  return cipher_text.capitalize()
