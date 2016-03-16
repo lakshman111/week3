@@ -16,11 +16,11 @@ import csv
 
 # 2. With/as automatically closes the file
 
-# with open("landmarks.csv") as file:
-#   reader = csv.reader(file)
-#   for row in reader:
-#     if row:
-#       print(row[0])
+with open("landmarks.csv") as file:
+  reader = csv.reader(file)
+  for row in reader:
+    if row:
+      print(row[0])
 
 
 

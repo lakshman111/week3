@@ -28,11 +28,11 @@ data = json.loads(decoded_data)
 print("Millenium Park is at", data['results'][0]['geometry']['location']['lat'])
 
 # to look at the keys
-# data.keys()
+print(data.keys())
 
 # to look at the values
-# data['results']
+# print(data['results'])
 
 # digging deeper
-# data['results'][0].keys()
+print(data['results'][0].keys())
 

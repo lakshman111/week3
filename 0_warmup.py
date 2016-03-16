@@ -35,6 +35,9 @@ names_of_planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'U
 # OR, if you didn't want to use a method...
 # .insert()
 
+# names_of_planets.insert(1, "Pluto")
+# print(names_of_planets)
+
 
 
 # Display the name of a planet chosen at at random (hint: use the "random" library)
